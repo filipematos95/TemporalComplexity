@@ -9599,7 +9599,6 @@ for (i in 1:nrow(res)){
   }
 }
 
- eladio e gordo
 data.season <- res[, c(16:22,1:15)]
 View(data.season) # ok
 
