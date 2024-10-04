@@ -853,8 +853,7 @@ date.fun <- function(date.fluxnet){
 # m_max<-10 #maximum embedding dimension
 # cd_m<-cd_takens(x,m_max=m_max)
 # cd_m
-# a <- Sys.time()
-# cd_m2<-cd_fertakens(x,m_min=2, m_max="auto", d = "ami", sel.meth = "first.e.decay") # sel.meth="first.e.decay" (default) or "first.minimum" (like in cd_takens)
+# a <- Sys.time()ens(x,m_min=2, m_max="auto", d = "ami", sel.meth = "first.e.decay") # sel.meth="first.e.decay" (default) or "first.minimum" (like in cd_takens)
 # cd_m2
 # Sys.time() - a
 # attract(x [1:4000], lag=cd_m$delay, type="l", main= a) # show attractor
