@@ -11,7 +11,7 @@ library (snow)
 date.fun <- function(date.fluxnet){
   return(as.numeric(substring(as.character(date.fluxnet), c(1,5,7,9,11), c(4,6,8,10,12))))
 }
-
+eladioooooooooooooooooooooooooooooooooooo testo
 embed_udf <-function(x, mmax=6, d=NA){
   if(is.na(d)){
     #Step 1: Calculate embedding delay
